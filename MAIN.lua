@@ -1,5 +1,5 @@
 local Library                   = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window                    = Library.CreateLib("MEOW X HUB ", "Synapse")
+local Window                    = Library.CreateLib("MEOW X HUB UPDATE 1.1 ", "Synapse")
 local footnote                  = Instance.new("TextLabel")
 
 
@@ -21,12 +21,22 @@ ASERNALSection:NewButton("ASERNAL", "RUN REVIZ ADMIN SCRIPT", function()
 end)
 --MARUKO
 local Tab            = Window:NewTab("MARUKO")
+
 local MARUKOBLSection = Tab:NewSection("BLOXFRUIT")
 
-MARUKOBLSection:NewButton("RUN", "MARUKO HUB MAP:BLOXFRUIT CAN CLOSE THIS HUB AFTER RUNNED", function()
+MARUKOBLSection:NewButton("EXECUTE", "MARUKO HUB MAP:BLOXFRUIT", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua")()   
 end)
 
 local MARUKOPETSIMXSection = Tab:NewSection("PETSIMULATOR X")
-MARUKOPETSIMXSection:NewButton("RUN", "MARUKO HUB MAP:PET SIMULATOR CAN CLOSE THIS HUB AFTER RUNNED", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/MOKURO-HUB/main/PetSimulatorX.lua'))()end)
+MARUKOPETSIMXSection:NewButton("EXECUTE", "MARUKO HUB MAP:PET SIMULATOR", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/MOKURO-HUB/main/PetSimulatorX.lua'))()
+end)
+
+local MARUKOKINGLEGACYSection = Tab:NewSection("KING LEGdACY")
+MARUKOKINGLEGACYSection:NewButton("EXECUTE", "MARUKO HUB MAP:KINGLEGACY", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/MOKURO-HUB/main/PetSimulatorX.lua'))()
+end)
+
+--PHANTOM FORCE
+local Tab            = Window:NewTab("SOON")
